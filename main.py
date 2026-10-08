@@ -7,6 +7,7 @@ screen.addshape(image)
 
 turtle.shape(image)
 
-
+answer_state = screen.textinput(title='Guess the State', prompt="What's another states's name?")
+cap_answer = answer_state.capitalize()
 
 turtle.mainloop()
